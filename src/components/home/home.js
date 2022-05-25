@@ -20,7 +20,7 @@ const Home = () => {
   }, [dispatch]);
   return (
     <div className="all-countries">
-      <SearchBar handleOnChange={handleOnChange} value={search} />
+      <div><SearchBar handleOnChange={handleOnChange} value={search} /></div>
       <div className="country-container">
         {cases.map((elt) => (
           <ul key={elt.country_name} className="country">
