@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchedCases = createAsyncThunk("sth/FETCH_CASES", async () => {
-  const url = "https://corona.lmao.ninja/v2/countries";
+  const url = `https://corona.lmao.ninja/v2/countries`;
   const response = await fetch(url);
   const covidCases = await response.json();
   const fetchCovidCases = covidCases.map((item) => ({

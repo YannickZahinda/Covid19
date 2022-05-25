@@ -2,8 +2,8 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const SearchCountryInfo = createAsyncThunk(
   "COVID19/COUNTRY_DETAILS",
-  async (id) => {
-    const url = `https://corona.lmao.ninja/v2/countries/${id}`;
+  async (term) => {
+    const url = `https://corona.lmao.ninja/v2/countries/${term}`;
     const response = await fetch(url);
     const covidCases = await response.json();
     const fetchCovidCases = {
