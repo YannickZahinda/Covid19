@@ -18,6 +18,13 @@ body {
   backdrop-filter: blur(10px) ;
 }
 
+.country-details{
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    color: #9b0b42;
+}
+
 .detail-container {
   padding: 30px;
   text-align: center;
