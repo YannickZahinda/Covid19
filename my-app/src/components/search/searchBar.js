@@ -3,20 +3,20 @@ import searchIcon from "../../assets/flatsearch.png";
 import "./search.css";
 
 const SearchBar = ({ handleOnChange, value }) => (
-  <div>
+  <div className="searbar">
     <form >
       <input
         className="input-search"
         value={value}
-        type="text"
+        type="search"
         onChange={handleOnChange}
-        placeholder="search..."
+        placeholder="search a country..."
       />
-      <div>
+      {/* <div>
         <button className="searchBtn" type="submit">
           <img className="search" src={searchIcon} alt="searchicon" />
         </button>
-      </div>
+      </div> */}
     </form>
   </div>
 );
