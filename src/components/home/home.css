@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-countries {
+  text-align: center;
+}
+
+.searbar {
+  padding: 20px;
+}
+
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.country {
+  padding: 40px;
+  list-style-type: none;
+  background-color: #ec4c8a;
+  color: rgba(255, 255, 255, 0.866);
+}
+
+.country:hover {
+  cursor: pointer;
+  background-color: #ec4c89e2;
+}
+
+.country:nth-child(odd) {
+  background-color: #ce4176;
+}
+
+.country:nth-child(odd):hover {
+  background-color: #ce4177e8;
+}
+
+.back-img {
+  border-radius: 50%;
+  float: right;
+}
+
+@media only screen and (max-width: 990px) {
+  .country-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

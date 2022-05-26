@@ -1,0 +1,32 @@
+.links {
+  list-style-type: none;
+  background-color: #ce4176;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  font-size: 25px;
+  width: 100%;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.866);
+  font-weight: bold;
+  margin: 10px;
+}
+
+.title {
+  flex: 1;
+  color: rgba(255, 255, 255, 0.866);
+  font-weight: bold;
+}
+
+.evolution {
+  color: rgba(219, 214, 214, 0.693);
+}
+
+@media screen and (max-width: 990px) {
+  .links a {
+    width: 100%;
+  }
+}

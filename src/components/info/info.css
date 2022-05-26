@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ec4c8a;
+}
+
+.country-details-container {
+  background: url("../../assets/blackmicrob.png") #ec4c8997;
+  background-size: 500px;
+  width: 97%;
+  height: 97%;
+  padding: 70px;
+  margin: auto;
+  backdrop-filter: blur(10px);
+}
+
+.detail-container {
+  padding: 30px;
+  text-align: center;
+  box-shadow: 2px 6px 13px rgba(0, 0, 0, 0.866);
+  border-radius: 5px;
+  width: 50%;
+  height: 50%;
+  margin: 50px auto;
+  color: rgb(255, 255, 255);
+  position: relative;
+  background-color: #ec4c8a;
+  opacity: 1;
+}
+
+.animated-icon {
+  position: absolute;
+  animation-name: moving;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+.country-details {
+  margin: 10px;
+  list-style-type: none;
+  text-align: start;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  color: #9b0b42;
+}
+
+.country-details li {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.details {
+  font-weight: bold;
+}
+
+.back-left-img {
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding: 3px;
+  float: left;
+}
+
+.back-left-img:hover {
+  cursor: pointer;
+}
+
+@keyframes moving {
+  0% {
+    left: 20%;
+    top: 20px;
+    right: 20%;
+  }
+
+  10% {
+    left: 10%;
+    top: 50px;
+    right: 30%;
+  }
+
+  20% {
+    left: 60%;
+    top: 100px;
+    right: 70%;
+  }
+
+  30% {
+    left: 7%;
+    bottom: 43%;
+  }
+
+  40% {
+    left: 80%;
+    right: 300px;
+  }
+
+  50% {
+    left: 0%;
+    top: 78%;
+    right: 0%;
+  }
+
+  70% {
+    right: 0%;
+  }
+
+  80% {
+    right: 30%;
+  }
+
+  90% {
+    right: 70%;
+  }
+
+  100% {
+    right: 100%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .country-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+  }
+
+  body {
+    width: max-content;
+    box-sizing: border-box;
+  }
+
+  .detail-container {
+    width: max-content;
+  }
+
+  .img-container {
+    width: max-content;
+  }
+}

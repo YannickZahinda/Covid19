@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Component test Renders Mission Row 1`] = `
+<div>
+  <ul
+    className="links"
+  >
+    <li
+      className="title"
+    >
+      Covid
+      <span
+        className="evolution"
+      >
+        Evolution   
+      </span>
+      <span />
+    </li>
+    <li
+      className="link"
+    >
+      <a
+        aria-current="page"
+        className="active"
+        href="#/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+  </ul>
+</div>
+`;

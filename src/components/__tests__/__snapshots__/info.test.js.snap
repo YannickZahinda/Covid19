@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`info Component test Renders Info link 1`] = `
+<div
+  className="country-details-container"
+>
+  <div
+    className="detail-container"
+  >
+    <a
+      href="#/"
+      onClick={[Function]}
+    >
+      <img
+        alt="leftarrow"
+        className="back-left-img"
+        height={30}
+        src="leftarrow.png"
+        width={30}
+      />
+    </a>
+    <div
+      className="img-container"
+    >
+      <img
+        alt="country-flag"
+      />
+    </div>
+    <h2 />
+    <ul
+      className="country-details"
+    >
+      <li>
+        The country covid19 cases are :
+         
+        <span
+          className="details"
+        />
+      </li>
+      <li>
+        The country number of deaths :
+         
+        <span
+          className="details"
+        />
+      </li>
+      <li>
+        The country belongs to
+         
+        <span
+          className="details"
+        />
+         
+        continent
+      </li>
+    </ul>
+    <div
+      className="animated-icon"
+    >
+      <img
+        alt="microbe-icon"
+        height={50}
+        src="iconmicrobe.png"
+        width={50}
+      />
+    </div>
+    <div
+      className="animated-icon"
+    >
+      <img
+        alt="microbe-icon"
+        height={50}
+        src="iconmicrobe.png"
+        width={50}
+      />
+    </div>
+    <div
+      className="animated-icon"
+    >
+      <img
+        alt="microbe-icon"
+        height={50}
+        src="iconmicrobe.png"
+        width={50}
+      />
+    </div>
+  </div>
+</div>
+`;
