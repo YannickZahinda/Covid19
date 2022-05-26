@@ -26,7 +26,7 @@ export default function Info() {
             alt="leftarrow"
           />
         </Link>
-        <div>
+        <div className="img-container">
           <img src={countryDetails.country_flag} alt="country-flag" />
         </div>
         <h2>{countryDetails.country_name}</h2>

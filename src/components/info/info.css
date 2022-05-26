@@ -129,4 +129,17 @@ body {
     align-items: center;
     width: max-content;
   }
+
+  body {
+    width: max-content;
+    box-sizing: border-box;
+  }
+
+  .detail-container {
+    width: max-content;
+  }
+
+  .img-container {
+    width: max-content;
+  }
 }

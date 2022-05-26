@@ -24,3 +24,9 @@
 .evolution {
   color: rgba(219, 214, 214, 0.693);
 }
+
+@media screen and (max-width: 990px) {
+  .links a {
+    width: 100%;
+  }
+}
