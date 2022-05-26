@@ -6,7 +6,7 @@ import './home.css';
 import icon from '../../assets/back-icon.jpeg';
 import SearchBar from '../search/searchBar';
 
-const Home = () => {
+export default function Home() {
   const dispatch = useDispatch();
   const allCases = useSelector((state) => state.covid);
   const [search, setSearch] = useState('');
@@ -48,6 +48,4 @@ const Home = () => {
       </div>
     </div>
   );
-};
-
-export default Home;
+}

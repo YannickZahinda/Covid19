@@ -6,7 +6,7 @@ import microbe from '../../assets/iconmicrobe.png';
 import leftArrow from '../../assets/leftarrow.png';
 import './info.css';
 
-const Info = () => {
+export default function Info() {
   const countryDetails = useSelector((state) => state.details);
   const { countryId } = useParams();
   const dispatch = useDispatch();
@@ -61,6 +61,4 @@ const Info = () => {
       </div>
     </div>
   );
-};
-
-export default Info;
+}
