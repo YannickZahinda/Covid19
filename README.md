@@ -13,7 +13,7 @@ Reactjs, API
 
 ## Deployment
 
-[Link to my project](https://app.netlify.com/sites/glittery-beijinho-f28c4c/deploys/628f329d107a5800087a3332)
+[Link to my project](https://deploy-preview-1--glittery-beijinho-f28c4c.netlify.app)
 
 ## Getting Started With React App
 To get a local copy of the project 
