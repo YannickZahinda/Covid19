@@ -122,15 +122,11 @@ body {
   }
 }
 
-@media screen and (max-width:990px) {
-  .country-details-container{
+@media screen and (max-width: 990px) {
+  .country-details-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: max-content;
-  }
-
-  .detail-container{
-    
   }
 }
