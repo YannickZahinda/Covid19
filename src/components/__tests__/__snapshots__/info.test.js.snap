@@ -19,7 +19,9 @@ exports[`info Component test Renders Info link 1`] = `
         width={30}
       />
     </a>
-    <div>
+    <div
+      className="img-container"
+    >
       <img
         alt="country-flag"
       />
