@@ -44,6 +44,6 @@ To start the app in the development mode
 
 **Acknowledgement**
 
-[NELSON Sakwa](https://www.behance.net/sakwadesignstudio)
+ Credit to [NELSON Sakwa](https://www.behance.net/sakwadesignstudio), the author of the [original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 # Give a ⭐ to show some 🤟
