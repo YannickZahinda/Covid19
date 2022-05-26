@@ -11,6 +11,10 @@ Reactjs, API
 <img width="1280" alt="Screen Shot 2022-05-26 at 00 41 51" src="https://user-images.githubusercontent.com/91213045/170381625-42e01891-00e4-497c-8ad0-649d0b6d62f0.png">
 
 
+## Deployment
+
+[Link to my project](https://app.netlify.com/sites/glittery-beijinho-f28c4c/deploys/628f329d107a5800087a3332)
+
 ## Getting Started With React App
 To get a local copy of the project 
 
