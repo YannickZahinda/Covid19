@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar Component test Renders search Row 1`] = `
+<div
+  className="all-countries"
+>
+  <div>
+    <div
+      className="searbar"
+    >
+      <form>
+        <input
+          className="input-search"
+          onChange={[Function]}
+          placeholder="search a country..."
+          type="search"
+          value=""
+        />
+      </form>
+    </div>
+  </div>
+  <div
+    className="country-container"
+  />
+</div>
+`;

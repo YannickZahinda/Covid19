@@ -28,17 +28,6 @@ exports[`Nav Component test Renders Mission Row 1`] = `
         Home
       </a>
     </li>
-    <li
-      className="link"
-    >
-      <a
-        className=""
-        href="#/Info"
-        onClick={[Function]}
-      >
-        Info
-      </a>
-    </li>
   </ul>
 </div>
 `;
