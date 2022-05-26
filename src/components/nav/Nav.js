@@ -14,9 +14,6 @@ function Nav() {
         <li className="link">
           <NavLink to="/">Home</NavLink>
         </li>
-        <li className="link">
-          <NavLink to="/Info">Info</NavLink>
-        </li>
       </ul>
     </div>
   );
